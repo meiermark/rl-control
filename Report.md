@@ -5,6 +5,8 @@
 The implemented version of the [ddpg algorithm](https://arxiv.org/pdf/1509.02971.pdf) solves the reacher environment with 20 agents after 800 episodes with a required minimum average score of 30.
 After 900 the average score increases to 51. After 968 episodes the training was manually interrupted.
 
+![Training][image1]
+
 ## Hyperparameters
 number of episodes for training: 5000
 max number of actions per episode: 2000
